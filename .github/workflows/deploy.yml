@@ -7,7 +7,7 @@ on:
 
 jobs: 
   build-and-push:
-    runs-on: ubundu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: checkout repo
       uses: actions/checkout@v2
