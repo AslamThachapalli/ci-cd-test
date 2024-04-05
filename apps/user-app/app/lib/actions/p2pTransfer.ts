@@ -14,6 +14,7 @@ export async function P2PTransfer(to: string, amount: number) {
             message: 'Unauthenticated request',
         }
     }
+    
 
     const toUser = await db.user.findFirst({
         where: {
